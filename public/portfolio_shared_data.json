@@ -1,6 +1,6 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
+      "name": "Mankour Ibrahim",
       "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
       "social": [
         {
@@ -29,8 +29,8 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
+          "name": "React",
+          "class": "devicon-react-original",
           "level": "80"
         },
         {
@@ -54,8 +54,8 @@
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
+          "name": "Redux",
+          "class": "devicon-redux-original",
           "level": "65"
         },
         {

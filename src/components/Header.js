@@ -39,7 +39,12 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+            <img 
+            src={process.env.PUBLIC_URL + "/images/myProfile.jpg"}
+            alt="portrait" 
+            className="header-image" 
+            style={{ width: '150px', height: '150px' }} 
+          />
               <br/>
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />

@@ -7,8 +7,10 @@ import vueIcon from "@iconify/icons-logos/vue";
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var profilepic = process.env.PUBLIC_URL + "/images/" + this.props.sharedBasicInfo.image;
+      console.log("Chemin de l'image :", profilepic); // Ajoute un log pour vérifier
     }
+    
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;

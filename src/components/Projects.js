@@ -18,21 +18,26 @@ class Projects extends Component {
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
-      var projects = this.props.resumeProjects.map(function (projects) {
+      var projects = this.props.resumeProjects.map((projects) => {
         return (
           <div
             className="col-sm-12 col-md-6 col-lg-4"
             key={projects.title}
             style={{ cursor: "pointer" }}
+            onClick={() => detailsModalShow(projects)} // Garde la logique de la modale
           >
             <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
+              <div className="foto">
                 <div>
                   <img
                     src={projects.images[0]}
-                    alt="projectImages"
+                    alt={projects.title}
                     height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    style={{
+                      marginBottom: 0,
+                      paddingBottom: 0,
+                      position: "relative",
+                    }}
                   />
                   <span className="project-date">{projects.startDate}</span>
                   <br />
@@ -59,7 +64,7 @@ class Projects extends Component {
           <ProjectDetailsModal
             show={this.state.detailsModalShow}
             onHide={detailsModalClose}
-            data={this.state.deps}
+            data={this.state.deps} // Passe les données à la modale
           />
         </div>
       </section>
