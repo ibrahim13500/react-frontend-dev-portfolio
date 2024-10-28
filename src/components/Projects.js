@@ -11,46 +11,56 @@ class Projects extends Component {
   }
 
   render() {
-    let detailsModalShow = (data) => {
+    const detailsModalShow = (data) => {
       this.setState({ detailsModalShow: true, deps: data });
     };
 
-    let detailsModalClose = () => this.setState({ detailsModalShow: false });
-    if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.projects;
-      var projects = this.props.resumeProjects.map((projects) => {
-        return (
-          <div
-            className="col-sm-12 col-md-6 col-lg-4"
-            key={projects.title}
-            style={{ cursor: "pointer" }}
-            onClick={() => detailsModalShow(projects)} // Garde la logique de la modale
-          >
-            <span className="portfolio-item d-block">
-              <div className="foto">
-                <div>
-                  <img
-                    src={projects.images[0]}
-                    alt={projects.title}
-                    height="230"
-                    style={{
-                      marginBottom: 0,
-                      paddingBottom: 0,
-                      position: "relative",
-                    }}
-                  />
-                  <span className="project-date">{projects.startDate}</span>
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
+    const detailsModalClose = () => this.setState({ detailsModalShow: false });
+
+    // Define default values to prevent undefined variables
+    const sectionName = this.props.resumeBasicInfo
+      ? this.props.resumeBasicInfo.section_name.projects
+      : "Projects";
+    
+    const projects = this.props.resumeProjects
+      ? this.props.resumeProjects.map((project) => {
+          return (
+            <div
+              id="projects"
+              className="col-sm-12 col-md-6 col-lg-4"
+              key={project.title}
+              style={{ cursor: "pointer" }}
+              onClick={() => detailsModalShow(project)}
+            >
+              <span className="portfolio-item d-block">
+                <div className="foto">
+                  <div>
+                    {project.coverImage && (
+                      <img
+                        src={`${process.env.PUBLIC_URL}/${project.coverImage}`}
+                        alt={project.title}
+                        height="230"
+                        style={{
+                          marginBottom: 0,
+                          paddingBottom: 0,
+                          position: "relative",
+                          objectFit: "cover",
+                          width: "100%",
+                        }}
+                      />
+                    )}
+                    <span className="project-date">{project.startDate}</span>
+                    <br />
+                    <p className="project-title-settings mt-3">
+                      {project.title}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </span>
-          </div>
-        );
-      });
-    }
+              </span>
+            </div>
+          );
+        })
+      : []; // If resumeProjects is undefined, use an empty array
 
     return (
       <section id="portfolio">
@@ -64,7 +74,7 @@ class Projects extends Component {
           <ProjectDetailsModal
             show={this.state.detailsModalShow}
             onHide={detailsModalClose}
-            data={this.state.deps} // Passe les données à la modale
+            data={this.state.deps}
           />
         </div>
       </section>

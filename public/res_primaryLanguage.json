@@ -1,7 +1,8 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Mankour ibrahim. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hi there",
+      "description": "I’m Ibrahim Mankour, a passionate and creative front-end developer. I’m always eager to learn and explore new ways to build engaging, interactive experiences that bring ideas to life.For me, development is more than just code – it’s about crafting intuitive, high-performance solutions with an eye for detail. Each project is a new opportunity to grow, innovate, and push the boundaries of what’s possible on the web. Feel free to look around, and don’t hesitate to reach out if you’d like to connect or learn more!",
+
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -13,68 +14,75 @@
       {
         "title": "Nina Carducci",
         "startDate": "2024",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator.",
+        "description": "This project is the online portfolio of Nina Carducci, a photographer based in Bordeaux. It has been enhanced to ensure better accessibility, optimized performance, and strong SEO.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
         ],
+        "coverImage": "images/portfolio/animal-shelter/p1.jpg",
+
         "url": "https://ibrahim13500.github.io/ninacarducci/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           },
           {
             "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "name": "JS"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "OhMyfood",
+        "startDate": "2024",
+        "description": "Ohmyfood! is an online meal ordering company. Our concept allows users to create their own menu and reduce wait time at restaurants, as their meals are prepared in advance. No more time wasted looking at the menu!",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/OHfood.jpg"
+        ],
+        "coverImage":  "images/portfolio/photography/p1.jpg",
+
+        "url": "https://ibrahim13500.github.io/ohmyfood-openclassroom/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-sass-original",
+            "name": "SASS"
+          }
+        ]
+      },
+      {
+        "title": "Print It!",
+        "startDate": "2024",
+        "description": "This project introduces JavaScript by enhancing a static printing website with an interactive carousel. It demonstrates how JavaScript makes a site more engaging, while utilizing Visual Studio Code and GitHub for development and version control.",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
+
         ],
-        "url": "https://github.com",
+        "coverImage": "images/portfolio/animal-shelter/coverImage.jpg",
+
+        "url": "https://ibrahim13500.github.io/print--it/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           }
         ]
       }
