@@ -16,7 +16,7 @@
       "description": "This project is the online portfolio of Nina Carducci, a photographer based in Bordeaux. It has been enhanced to ensure better accessibility, optimized performance, and strong SEO.",
       "images": [
         "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/portfolio/animal-shelter/camera.webp"
       ],
       "coverImage": "images/portfolio/animal-shelter/p1.jpg",
       "githubUrl": "https://github.com/ibrahim13500/ninacarducci",
@@ -64,7 +64,7 @@
       "description": "This project introduces JavaScript by enhancing a static printing website with an interactive carousel. It demonstrates how JavaScript makes a site more engaging, while utilizing Visual Studio Code and GitHub for development and version control.",
       "images": [
         "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/adventure/colors.jpg"
       ],
       "coverImage": "images/portfolio/animal-shelter/coverImage.jpg",
       "githubUrl": "https://github.com/ibrahim13500/print--it",
