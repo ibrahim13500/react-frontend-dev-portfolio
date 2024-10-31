@@ -1,0 +1,19 @@
+// prisma/schema.prisma
+
+// Définir la source de données (par exemple, SQLite, PostgreSQL, etc.)
+datasource db {
+  provider = "sqlite" // ou "postgresql", "mysql", etc.
+  url      = env("DATABASE_URL") // URL de connexion à votre base de données
+}
+
+// Générer le client Prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Modèle d'exemple
+model User {
+  id    Int     @id @default(autoincrement())
+  name  String?
+  email String? @unique
+}
