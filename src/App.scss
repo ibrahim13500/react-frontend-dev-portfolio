@@ -36,14 +36,16 @@ $border-radius: 8px; // Rayon de bord pour les boutons
 			border-radius: $border-radius; // Rayon de bord
 			border: none;
 			background-color: transparent;
-			color: $text-color;
+			color: linear-gradient(to right, #1a3d2f, #243b4a);
+			font-weight: 600;
 			font-size: 14px; // Taille de police adaptée
 			cursor: pointer;
 			transition: background-color 0.3s ease;
 			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); // Ombre légère
 
 			&:hover {
-				background-color: black; // Change la couleur au survol
+				background :linear-gradient(to right, #1a3d2f, #243b4a);
+				; // Change la couleur au survol
 			}
 
 			&:active {
@@ -57,7 +59,7 @@ $border-radius: 8px; // Rayon de bord pour les boutons
 		flex-direction: column; // Empile les éléments
 		align-items: center; // Centre les éléments
 		background-color: transparent; // Fond visible pour le mobile
-		padding: 10px 0; // Espace autour
+		padding: 10px 0; // 
 
 		.header-buttons {
 			display: flex; // Affiche les boutons
@@ -70,7 +72,7 @@ $border-radius: 8px; // Rayon de bord pour les boutons
 					max-width: 300px; // Largeur maximale pour ne pas dépasser
 					background-color: transparent; // Couleur de fond
 					padding: 10px; // Padding standard
-					font-size: 16px; // Taille de police plus grande
+					font-size: 12px; // Taille de police plus grande
 
 					&:hover {
 						background-color: gradient red($color: #000000); // Change couleur au survol
@@ -102,6 +104,7 @@ html {
 .title-styles {
 	font-family: 'Raleway', sans-serif;
 	font-size: 250%;
+	color: white;
 }
 
 .header-icon {
@@ -161,7 +164,7 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: white;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
@@ -222,7 +225,7 @@ header h1 {
 }
 
 .foto div:after {
-	color: #333;
+	color: white;
 	font-size: 25px;
 	content: attr(title);
 	position: relative;
@@ -323,9 +326,9 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background: linear-gradient(to right, #1a3d2f, #243b4a);
 	color: black;
-	font-weight: lighter !important;
+	font-weight: black;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 

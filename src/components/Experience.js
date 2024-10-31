@@ -8,7 +8,7 @@ import Badge from "react-bootstrap/Badge";
 
 class Service extends Component {
   render() {
-    let sectionName = "Service"; // Updated section name
+    let sectionName = "Education"; // Updated section name
     let work = null;
 
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {

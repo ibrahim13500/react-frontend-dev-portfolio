@@ -44,8 +44,8 @@
         "level": "80"
       },
       {
-        "name": "TypeScript",
-        "class": "devicon-typescript-plain",
+        "name": "MongoDB",
+        "class":"devicon-mongodb-plain",
         "level": "90"
       },
       {
@@ -59,8 +59,8 @@
         "level": "75"
       },
       {
-        "name": "Bootstrap",
-        "class": "devicon-bootstrap-plain",
+        "name": "Notion",
+       "class":"devicon-notion-plain colored",
         "level": "85"
       },
       {
@@ -69,8 +69,19 @@
         "level": "65"
       },
       {
-        "name": "MySql",
-        "class": "devicon-mysql-plain",
+        "name": "Slack",
+        "class": "devicon-slack-plain",
+        "level": "60"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "60"
+      }
+      ,
+      {
+        "name": "Vscode",
+        "class": "devicon-vscode-plain",
         "level": "60"
       }
     ]

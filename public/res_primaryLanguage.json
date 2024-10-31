@@ -90,43 +90,14 @@
     {
       "title": "Front-End Developer",
       "mainTech": [
-        "Création de Sites Web et Landing Pages"
+        "OpenClassrooms 2024"
       ],
       "technologies": [
-        "REST API",
         "React",
         "JavaScript",
-        "Bootstrap",
         "Redux",
         "HTML5",
         "CSS3",
-        "NodeJs",
-        "Auth.js"
+        "NodeJs"
       ]
-    },
-    {
-      "title": "Design Adaptatif",
-      "mainTech": [
-        "Optimisé"
-      ],
-      "technologies": [
-        "Sass",
-        "CSS3",
-        "React",
-        "JavaScript"
-      ]
-    },
-    {
-      "title": "Design Adaptatif",
-      "mainTech": [
-        "Optimisé"
-      ],
-      "technologies": [
-        "Sass",
-        "CSS3",
-        "React",
-        "JavaScript"
-      ]
-    }
-  ]
-}
+    }]}

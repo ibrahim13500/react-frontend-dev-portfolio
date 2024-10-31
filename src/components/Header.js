@@ -63,7 +63,7 @@ class Header extends Component {
               <button onClick={() => this.scrollToSection('skills')} className="round-button">Skills</button>
             </li>
             <li>
-              <button onClick={() => this.scrollToSection('resume')} className="round-button">Formation</button>
+              <button onClick={() => this.scrollToSection('resume')} className="round-button">Education</button>
             </li>
           </ul>
         </nav>
@@ -74,7 +74,7 @@ class Header extends Component {
                 src={process.env.PUBLIC_URL + "/images/integrateur.jpg"}
                 alt="portrait"
                 className="header-image"
-                style={{ width: '100%', height: '300px', objectFit:'cover' }}
+                style={{ width: '100%', height: '345px', objectFit:'cover' }}
               />
               <br/>
               <h1 className="mb-0">
