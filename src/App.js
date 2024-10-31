@@ -20,28 +20,32 @@ class App extends Component {
   }
 
   applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
+    // Applique la langue choisie
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
-    var resumePath =
+    const resumePath =
       document.documentElement.lang === window.$primaryLanguage
         ? `res_primaryLanguage.json`
         : `res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
-
+  
   swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
+    // Identifie l'ID de l'icône de langue sélectionnée
+    const pickedLangIconId =
       oppositeLangIconId === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
+  
+    // Assombrit l'icône non sélectionnée et éclaircit l'icône sélectionnée
     document
       .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
+      .setAttribute("style", "filter: brightness(40%)");
     document
       .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+      .setAttribute("style", "filter: brightness(100%)");
   }
-
+  
   componentDidMount() {
     this.loadSharedData();
     this.applyPickedLanguage(

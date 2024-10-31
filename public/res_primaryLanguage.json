@@ -20,6 +20,7 @@
           "images/portfolio/animal-shelter/p2.jpg"
         ],
         "coverImage": "images/portfolio/animal-shelter/p1.jpg",
+        "githubUrl": "https://github.com/ibrahim13500/ninacarducci",
 
         "url": "https://ibrahim13500.github.io/ninacarducci/",
         "technologies": [
@@ -89,37 +90,44 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
         "title": "Front-End Developer",
-        "years": "10.2019 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Création de Sites Web et Landing Pages"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
+          "React",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Redux",
+          "HTML5",
+          "CSS3",
+          "NodeJs",
+          "Auth.js"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "title": "Design Adaptatif",
         "mainTech": [
-          "Angular 7/8"
+          "Optimisé"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Sass",
+          "CSS3",
+          "React",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Design Adaptatif",
+        "mainTech": [
+          "Optimisé"
+        ],
+        "technologies": [
+          "Sass",
+          "CSS3",
+          "React",
+          "JavaScript"
         ]
       }
     ]

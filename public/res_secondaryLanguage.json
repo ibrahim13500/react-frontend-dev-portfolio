@@ -1,10 +1,9 @@
 {
   "basic_info": {
-    "description_header": "Salut",
-    "description": "Je m’appelle Ibrahim Mankour, développeur front-end passionné et créatif. Toujours curieux d’apprendre, j’aime explorer de nouvelles façons de créer des expériences interactives et engageantes qui donnent vie aux idées.Pour moi, le développement va bien au-delà du code : il s’agit de concevoir des solutions intuitives et performantes, avec une attention particulière aux détails. Chaque projet est une occasion de grandir, d’innover et de repousser les limites de ce qui est possible sur le web.N’hésitez pas à explorer mon travail et à me contacter si vous souhaitez en savoir plus ou échanger ",
-
+    "description_header": "Bonjour",
+    "description": "Je suis Ibrahim Mankour, un développeur front-end passionné et créatif. J’ai toujours hâte d'apprendre et d'explorer de nouvelles façons de créer des expériences interactives et engageantes qui donnent vie aux idées. Pour moi, le développement est bien plus que du code – c’est un art de concevoir des solutions intuitives et performantes avec un souci du détail. Chaque projet est une nouvelle opportunité de grandir, d'innover et de repousser les limites de ce qui est possible sur le web. N’hésitez pas à parcourir mon travail et à me contacter si vous souhaitez échanger ou en savoir plus !",
     "section_name": {
-      "about": "À propos",
+      "about": "À propos de moi",
       "projects": "Projets",
       "skills": "Compétences",
       "experience": "Expérience"
@@ -12,105 +11,117 @@
   },
   "projects": [
     {
-      "title": "Refuge pour animaux",
-      "startDate": "2020",
-      "description": "L'application la plus complexe sur laquelle j'ai eu l'occasion de travailler. J'ai découvert de nombreuses technologies et mon code a été révisé par un excellent mentor. L'application gère tous les processus d'adoption et permet de stocker toute la documentation liée à l'adoption d'animaux du refuge.",
+      "title": "Nina Carducci",
+      "startDate": "2024",
+      "description": "Ce projet est le portfolio en ligne de Nina Carducci, une photographe basée à Bordeaux. Il a été amélioré pour assurer une meilleure accessibilité, des performances optimisées, et un référencement SEO fort.",
       "images": [
         "images/portfolio/animal-shelter/p1.jpg",
         "images/portfolio/animal-shelter/p2.jpg"
       ],
-      "url": "",
+      "coverImage": "images/portfolio/animal-shelter/p1.jpg",
+      "url": "https://ibrahim13500.github.io/ninacarducci/",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
-    },
-    {
-      "title": "Photographie",
-      "startDate": "2018",
-      "description": "Projet personnel pour un cours à l'université. J'étais responsable des tests d'une application qui optimise les photos en utilisant des algorithmes populaires que l'on retrouve dans des éditeurs graphiques comme Pixlr ou Adobe Photoshop. J'ai reçu une note de 5/5 pour ce projet :)",
-      "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
-          "name": "React"
+          "class": "devicon-css3-plain",
+          "name": "CSS"
         },
         {
           "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "name": "JS"
         }
       ]
     },
     {
-      "title": "Visualiseur d'objets 3D",
-      "startDate": "2015",
-      "description": "L'une des premières applications sur lesquelles j'ai travaillé lors de mon stage. J'ai dû préparer le front-end d'une application qui affiche des modèles 3D de bâtiments célèbres. C'était également mon premier projet avec le framework Angular. J'ai beaucoup appris!",
+      "title": "OhMyfood",
+      "startDate": "2024",
+      "description": "Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet aux utilisateurs de créer leur propre menu et de réduire le temps d'attente au restaurant, car leurs plats sont préparés à l'avance. Fini le temps perdu à regarder le menu !",
+      "images": [
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/OHfood.jpg"
+      ],
+      "coverImage": "images/portfolio/photography/p1.jpg",
+      "url": "https://ibrahim13500.github.io/ohmyfood-openclassroom/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-sass-original",
+          "name": "SASS"
+        }
+      ]
+    },
+    {
+      "title": "Print It!",
+      "startDate": "2024",
+      "description": "Ce projet introduit le JavaScript en améliorant un site statique d'impression avec un carrousel interactif. Il montre comment JavaScript rend un site plus engageant, tout en utilisant Visual Studio Code et GitHub pour le développement et le contrôle de version.",
       "images": [
         "images/portfolio/adventure/p1.jpg",
         "images/portfolio/adventure/p2.jpg"
       ],
-      "url": "https://github.com",
+      "coverImage": "images/portfolio/animal-shelter/coverImage.jpg",
+      "url": "https://ibrahim13500.github.io/print--it/",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-css3-plain",
+          "name": "CSS"
         }
       ]
     }
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Développeuse Front-End",
-      "years": "10.2019 - présent",
+      "title": "Développeur Front-End",
       "mainTech": [
-        "Angular 8/9/10"
+        "Création de Sites Web et Pages d'atterrissage"
       ],
       "technologies": [
-        "REST API",
-        "RxJS",
+        "API REST",
+        "React",
         "JavaScript",
         "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        "Angular Material"
+        "Redux",
+        "HTML5",
+        "CSS3",
+        "NodeJs",
+        "Auth.js"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Stagiaire",
-      "years": "01.2018 - 09.2019",
+      "title": "Design Adaptatif",
       "mainTech": [
-        "Angular 7/8"
+        "Optimisé, Responsive"
       ],
       "technologies": [
-        "REST API",
-        "RxJS",
-        "Swagger",
-        "JavaScript",
-        "DHTMLX Gantt"
+        "Sass",
+        "CSS3",
+        "React",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Design Adaptatif",
+      "mainTech": [
+        "Optimisé "
+      ],
+      "technologies": [
+        "Sass",
+        "CSS3",
+        "React",
+        "JavaScript"
       ]
     }
   ]

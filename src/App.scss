@@ -1,11 +1,9 @@
 @import '../src/scss/themes/theme-dark.scss';
 @import '../src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
-$primary-color: #4a90e2; // Couleur principale
-$hover-color: #357ab8; // Couleur au survol
-$text-color: #fff; // Couleur du texte
+
 $background-color: #500505; // Couleur de fond du header
-$primary-color: #4a90e2; // Couleur principale
+$primary-color: #e2c14a; // Couleur principale
 $hover-color: #357ab8; // Couleur au survol
 $text-color: #fff; // Couleur du texte
 $background-color: #333; // Couleur de fond du header
@@ -45,7 +43,7 @@ $border-radius: 8px; // Rayon de bord pour les boutons
 			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); // Ombre légère
 
 			&:hover {
-				background-color: $hover-color; // Change la couleur au survol
+				background-color: black; // Change la couleur au survol
 			}
 
 			&:active {
@@ -142,7 +140,7 @@ header {
 	background: linear-gradient(to right, #f5f1da, #b4d79e);
 	border-radius: 0 0 5px 5px;
 	background: linear-gradient(to right, #f5f1da, #b4d79e);
-	background: linear-gradient(to right, #f5f1da, #b4d79e);
+background: linear-gradient(to right, #f5f1da, #b4d79e);
 }
 
 .skills-tile {
@@ -254,6 +252,7 @@ header h1 {
 .polaroid img {
 	display: block;
 	max-width: 200px;
+	object-fit: cover;
 }
 
 .polaroid span {

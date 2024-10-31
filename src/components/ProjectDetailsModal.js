@@ -7,12 +7,10 @@ import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 
 class ProjectDetailsModal extends Component {
   render() {
-    // Vérification que data existe et n'est pas vide
     const { data } = this.props;
     if (data) {
-      const { title, description, url, images = [], technologies = [] } = data; // Valeurs par défaut pour images et technologies
+      const { title, description, url, githubUrl, images = [], technologies = [] } = data;
 
-      // Vérification et affichage des technologies
       const tech = technologies.map((icon, i) => (
         <li className="list-inline-item mx-3" key={i}>
           <div className="text-center">
@@ -25,7 +23,6 @@ class ProjectDetailsModal extends Component {
         </li>
       ));
 
-      // Vérification et affichage des images
       const img = images.map((elem, i) => (
         <div key={i} data-src={process.env.PUBLIC_URL + "/" + elem} />
       ));
@@ -72,7 +69,7 @@ class ProjectDetailsModal extends Component {
               </AwesomeSlider>
             </div>
             <div className="col-md-10 mx-auto">
-              <h3 style={{ padding: "5px 5px 0 5px" }}>
+              <h3 style={{ padding: "5px 5px 0 5px", display: "flex", alignItems: "center" }}>
                 {title}
                 {url && (
                   <a
@@ -81,7 +78,18 @@ class ProjectDetailsModal extends Component {
                     rel="noopener noreferrer"
                     className="link-href"
                   >
-                    <i className="fas fa-external-link-alt" style={{ marginLeft: "10px" }}></i>
+                    <i className="fas fa-globe" style={{ marginLeft: "10px" }}></i>
+                  </a>
+                )}
+                {githubUrl && (
+                  <a
+                    href={githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-href"
+                    title="Voir le code sur GitHub"
+                  >
+                    <i className="fab fa-github" style={{ marginLeft: "10px", fontSize: "1.5em" }}></i>
                   </a>
                 )}
               </h3>
@@ -94,7 +102,7 @@ class ProjectDetailsModal extends Component {
         </Modal>
       );
     }
-    return null; // Retourne null si aucune donnée n'est fournie
+    return null;
   }
 }
 

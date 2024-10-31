@@ -64,7 +64,7 @@ class Header extends Component {
               <button onClick={() => this.scrollToSection('skills')} className="round-button">Skills</button>
             </li>
             <li>
-              <button onClick={() => this.scrollToSection('resume')} className="round-button">Experience</button>
+              <button onClick={() => this.scrollToSection('resume')} className="round-button">Service</button>
             </li>
           </ul>
         </nav>
