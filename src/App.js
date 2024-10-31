@@ -9,7 +9,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -20,7 +19,6 @@ class App extends Component {
   }
 
   applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-    // Applique la langue choisie
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
     const resumePath =
@@ -29,15 +27,13 @@ class App extends Component {
         : `res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
-  
+
   swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    // Identifie l'ID de l'icône de langue sélectionnée
     const pickedLangIconId =
       oppositeLangIconId === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
-  
-    // Assombrit l'icône non sélectionnée et éclaircit l'icône sélectionnée
+
     document
       .getElementById(oppositeLangIconId)
       .setAttribute("style", "filter: brightness(40%)");
@@ -45,7 +41,7 @@ class App extends Component {
       .getElementById(pickedLangIconId)
       .setAttribute("style", "filter: brightness(100%)");
   }
-  
+
   componentDidMount() {
     this.loadSharedData();
     this.applyPickedLanguage(
@@ -86,7 +82,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <Header
+          sharedData={this.state.sharedData.basic_info}
+          navbarData={this.state.sharedData.navbar} // Ajout de navbarData
+        />
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
@@ -131,7 +130,7 @@ class App extends Component {
         />
         <Skills
           sharedSkills={this.state.sharedData.skills}
-          resumeBasicInfo={this.state.resumeData.basic_info}
+          resumeBasicInfo={this.state.sharedData.basic_info}
         />
         <Experience
           resumeExperience={this.state.resumeData.experience}

@@ -8,6 +8,7 @@
       "skills": "Compétences",
       "experience": "Expérience"
     }
+    
   },
   "projects": [
     {
@@ -19,20 +20,12 @@
         "images/portfolio/animal-shelter/p2.jpg"
       ],
       "coverImage": "images/portfolio/animal-shelter/p1.jpg",
+      "githubUrl": "https://github.com/ibrahim13500/ninacarducci",
       "url": "https://ibrahim13500.github.io/ninacarducci/",
       "technologies": [
-        {
-          "class": "devicon-html5-plain",
-          "name": "HTML5"
-        },
-        {
-          "class": "devicon-css3-plain",
-          "name": "CSS"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JS"
-        }
+        { "class": "devicon-html5-plain", "name": "HTML5" },
+        { "class": "devicon-css3-plain", "name": "CSS" },
+        { "class": "devicon-javascript-plain", "name": "JS" }
       ]
     },
     {
@@ -44,16 +37,11 @@
         "images/portfolio/photography/OHfood.jpg"
       ],
       "coverImage": "images/portfolio/photography/p1.jpg",
+      "githubUrl": "https://github.com/ibrahim13500/ohmyfood-openclassroom",
       "url": "https://ibrahim13500.github.io/ohmyfood-openclassroom/",
       "technologies": [
-        {
-          "class": "devicon-html5-plain",
-          "name": "HTML5"
-        },
-        {
-          "class": "devicon-sass-original",
-          "name": "SASS"
-        }
+        { "class": "devicon-html5-plain", "name": "HTML5" },
+        { "class": "devicon-sass-original", "name": "SASS" }
       ]
     },
     {
@@ -65,20 +53,12 @@
         "images/portfolio/adventure/p2.jpg"
       ],
       "coverImage": "images/portfolio/animal-shelter/coverImage.jpg",
+      "githubUrl": "https://github.com/ibrahim13500/print--it",
       "url": "https://ibrahim13500.github.io/print--it/",
       "technologies": [
-        {
-          "class": "devicon-javascript-plain",
-          "name": "Javascript"
-        },
-        {
-          "class": "devicon-html5-plain",
-          "name": "HTML5"
-        },
-        {
-          "class": "devicon-css3-plain",
-          "name": "CSS"
-        }
+        { "class": "devicon-javascript-plain", "name": "Javascript" },
+        { "class": "devicon-html5-plain", "name": "HTML5" },
+        { "class": "devicon-css3-plain", "name": "CSS" }
       ]
     }
   ],
