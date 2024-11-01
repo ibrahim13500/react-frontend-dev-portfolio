@@ -1,0 +1,103 @@
+{
+  "basic_info": {
+    "description_header": "Hi there",
+    "description": "I’m Ibrahim Mankour, a passionate and creative front-end developer. I’m always eager to learn and explore new ways to build engaging, interactive experiences that bring ideas to life.For me, development is more than just code – it’s about crafting intuitive, high-performance solutions with an eye for detail. Each project is a new opportunity to grow, innovate, and push the boundaries of what’s possible on the web. Feel free to look around, and don’t hesitate to reach out if you’d like to connect or learn more!",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Nina Carducci",
+      "startDate": "2024",
+      "description": "This project is the online portfolio of Nina Carducci, a photographer based in Bordeaux. It has been enhanced to ensure better accessibility, optimized performance, and strong SEO.",
+      "images": [
+        "images/portfolio/animal-shelter/p1.jpg",
+        "images/portfolio/animal-shelter/camera.webp"
+      ],
+      "coverImage": "images/portfolio/animal-shelter/p1.jpg",
+      "githubUrl": "https://github.com/ibrahim13500/ninacarducci",
+      "url": "https://ibrahim13500.github.io/ninacarducci/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JS"
+        }
+      ]
+    },
+    {
+      "title": "OhMyfood",
+      "startDate": "2024",
+      "description": "Ohmyfood! is an online meal ordering company. Our concept allows users to create their own menu and reduce wait time at restaurants, as their meals are prepared in advance. No more time wasted looking at the menu!",
+      "images": [
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/OHfood.jpg"
+      ],
+      "coverImage": "images/portfolio/photography/p1.jpg",
+      "githubUrl": "https://github.com/ibrahim13500/ohmyfood-openclassroom",
+      "url": "https://ibrahim13500.github.io/ohmyfood-openclassroom/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-sass-original",
+          "name": "SASS"
+        }
+      ]
+    },
+    {
+      "title": "Print It!",
+      "startDate": "2024",
+      "description": "This project introduces JavaScript by enhancing a static printing website with an interactive carousel. It demonstrates how JavaScript makes a site more engaging, while utilizing Visual Studio Code and GitHub for development and version control.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/colors.jpg"
+      ],
+      "coverImage": "images/portfolio/animal-shelter/coverImage.jpg",
+      "githubUrl": "https://github.com/ibrahim13500/print--it",
+
+      "url": "https://ibrahim13500.github.io/print--it/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Front-End Developer",
+      "mainTech": [
+        "OpenClassrooms 2024"
+      ],
+      "technologies": [
+        "React",
+        "JavaScript",
+        "Redux",
+        "HTML5",
+        "CSS3",
+        "NodeJs"
+      ]
+    }]}

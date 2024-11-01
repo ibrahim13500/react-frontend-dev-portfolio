@@ -1,0 +1,108 @@
+{
+  "basic_info": {
+    "description_header": "Bonjour",
+    "description": "Je suis Ibrahim Mankour, un développeur front-end passionné et créatif. J’ai toujours hâte d'apprendre et d'explorer de nouvelles façons de créer des expériences interactives et engageantes qui donnent vie aux idées. Pour moi, le développement est bien plus que du code – c’est un art de concevoir des solutions intuitives et performantes avec un souci du détail. Chaque projet est une nouvelle opportunité de grandir, d'innover et de repousser les limites de ce qui est possible sur le web. N’hésitez pas à parcourir mon travail et à me contacter si vous souhaitez échanger ou en savoir plus !",
+    "section_name": {
+      "about": "À propos de moi",
+      "projects": "Projets",
+      "skills": "Compétences",
+      "experience": "Expérience"
+    }
+    
+  },
+  "projects": [
+    {
+      "title": "Nina Carducci",
+      "startDate": "2024",
+      "description": "Ce projet est le portfolio en ligne de Nina Carducci, une photographe basée à Bordeaux. Il a été amélioré pour assurer une meilleure accessibilité, des performances optimisées, et un référencement SEO fort.",
+      "images": [
+        "images/portfolio/animal-shelter/p1.jpg",
+        "images/portfolio/animal-shelter/camera.webp"
+      ],
+      "coverImage": "images/portfolio/animal-shelter/p1.jpg",
+      "githubUrl": "https://github.com/ibrahim13500/ninacarducci",
+      "url": "https://ibrahim13500.github.io/ninacarducci/",
+      "technologies": [
+        { "class": "devicon-html5-plain", "name": "HTML5" },
+        { "class": "devicon-css3-plain", "name": "CSS" },
+        { "class": "devicon-javascript-plain", "name": "JS" }
+      ]
+    },
+    {
+      "title": "OhMyfood",
+      "startDate": "2024",
+      "description": "Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet aux utilisateurs de créer leur propre menu et de réduire le temps d'attente au restaurant, car leurs plats sont préparés à l'avance. Fini le temps perdu à regarder le menu !",
+      "images": [
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/OHfood.jpg"
+      ],
+      "coverImage": "images/portfolio/photography/p1.jpg",
+      "githubUrl": "https://github.com/ibrahim13500/ohmyfood-openclassroom",
+      "url": "https://ibrahim13500.github.io/ohmyfood-openclassroom/",
+      "technologies": [
+        { "class": "devicon-html5-plain", "name": "HTML5" },
+        { "class": "devicon-sass-original", "name": "SASS" }
+      ]
+    },
+    {
+      "title": "Print It!",
+      "startDate": "2024",
+      "description": "Ce projet introduit le JavaScript en améliorant un site statique d'impression avec un carrousel interactif. Il montre comment JavaScript rend un site plus engageant, tout en utilisant Visual Studio Code et GitHub pour le développement et le contrôle de version.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/colors.jpg"
+      ],
+      "coverImage": "images/portfolio/animal-shelter/coverImage.jpg",
+      "githubUrl": "https://github.com/ibrahim13500/print--it",
+      "url": "https://ibrahim13500.github.io/print--it/",
+      "technologies": [
+        { "class": "devicon-javascript-plain", "name": "Javascript" },
+        { "class": "devicon-html5-plain", "name": "HTML5" },
+        { "class": "devicon-css3-plain", "name": "CSS" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Développeur Front-End",
+      "mainTech": [
+        "Création de Sites Web et Pages d'atterrissage"
+      ],
+      "technologies": [
+        "API REST",
+        "React",
+        "JavaScript",
+        "Bootstrap",
+        "Redux",
+        "HTML5",
+        "CSS3",
+        "NodeJs",
+        "Auth.js"
+      ]
+    },
+    {
+      "title": "Design Adaptatif",
+      "mainTech": [
+        "Optimisé, Responsive"
+      ],
+      "technologies": [
+        "Sass",
+        "CSS3",
+        "React",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Design Adaptatif",
+      "mainTech": [
+        "Optimisé "
+      ],
+      "technologies": [
+        "Sass",
+        "CSS3",
+        "React",
+        "JavaScript"
+      ]
+    }
+  ]
+}
